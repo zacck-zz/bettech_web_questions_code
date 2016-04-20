@@ -3,7 +3,7 @@
     // 0 is to make the cell blank, 1 will mean the cell is filled with color black 
     
     $color = 0;
-    echo '<table style="width:100%">';
+    echo '<table border="1" style="width:100%">';
     //generate  rows for chessboard
     for($rows = 0; $rows < 8; $rows++)
     {
