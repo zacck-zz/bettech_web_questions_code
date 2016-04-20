@@ -1,0 +1,7 @@
+<?php
+   echo <table style="width:100%">
+   for($rows = 0; $rows < 8; $rows++)
+   {
+        echo "<tr> row ".$rows+1." </tr>"
+   }
+?>
