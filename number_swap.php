@@ -3,20 +3,14 @@
     $a = 5;
     $b = 7;
 
-    //lets check which variable is larger than the other 
-    if($a > $b)
-    {
-        swap($b, $a);
-    }
-    else   
-    {
-        swap($a, $b);
-    }
+    echo " a = ". $a ." and b = " . $b;
+    echo "<br> swap <br>";
+    //lets combine both variables i.e put water and oil in one cup
+    $a = $a + $b;
+    //oil will float up and we can pour it in the water cup
+    $b = $a - $b;
+    //ensure only water is left in the oil cup
+    $a = $a - $b;
 
-    //this function takes in the variable and deals with the logic of value swapping 
-    funtion swap($smallnum, $bignum)
-    {
-        echo "small = ". $smallnum;
-        echo "big = " .$bignum;
-    }
+    echo " a = " . $a . " and b = " . $b;
 ?>
